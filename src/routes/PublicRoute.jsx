@@ -10,8 +10,8 @@ const PublicRoute = () => {
     <BrowserRouter>
        <NavigationPage/>
        <Routes>
-           <Route path='/' element= { <HomePage/>} /> 
-           <Route path='/register' element= { <RegisterCountry/> }/>
+           <Route path='/country-codes/' element= { <HomePage/>} /> 
+           <Route path='/country-codes/register' element= { <RegisterCountry/> }/>
        </Routes>
   </BrowserRouter>
   )

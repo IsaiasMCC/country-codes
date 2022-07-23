@@ -42,7 +42,7 @@ const FormCountryCode = () => {
                     <li className='flex mb-2 text-center bg-blue-100 border-blue-300 border-2 rounded-md hover:cursor-pointer hover:bg-blue-300'
                         onClick={() => setStateList(!stateList)}
                     >
-                        <img src={`./src/assets/phone_icon.svg`} width="25px" height="20px" className='mr-5'></img>
+                        <img src={`/phone_icon.svg`} width="25px" height="20px" className='mr-5'></img>
                         <label className='hover:cursor-pointer'> Telefono</label>
                     </li>
                     { stateList &&
